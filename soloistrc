@@ -20,6 +20,7 @@ recipes:
 - sprout-git::git_duet
 
 - sprout-jetbrains-editors::intellij
+- sprout-jetbrains-editors::rubymine
 
 node_attributes:
   bash_it:
