@@ -72,10 +72,12 @@ node_attributes:
     formulas:
       - cf-cli
       - chromedriver
+      - jruby
       - lastpass-cli
       - node
       - pstree
       - qt
+      - ruby
       - springboot
       - ssh-copy-id
       - the_platinum_searcher
