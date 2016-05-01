@@ -78,11 +78,13 @@ node_attributes:
       - wget
     casks:
       - ccmenu
+      - dropbox
       - flycut
       - google-chrome
       - google-drive
       - google-hangouts
       - java
+      - scansnap-manager-ix500
       - skype
       - spectacle
       - spotify
