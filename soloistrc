@@ -72,6 +72,7 @@ node_attributes:
       - ccmenu
       - flycut
       - google-chrome
+      - google-drive
       - google-hangouts
       - java
       - spectacle
