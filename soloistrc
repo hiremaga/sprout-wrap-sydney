@@ -95,6 +95,7 @@ node_attributes:
       - google-hangouts
       - java
       - scansnap-manager-ix500
+      - slack
       - skype
       - spectacle
       - spotify
