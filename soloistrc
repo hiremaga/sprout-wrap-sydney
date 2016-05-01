@@ -3,8 +3,8 @@ recipes:
 - sprout-base::bash_it
 - homebrew
 - homebrew::install_taps
-- homebrew::install_formulas
 - homebrew::install_casks
+- homebrew::install_formulas
 
 - sprout-osx-settings
 - sprout-osx-settings::dock_preferences
@@ -19,7 +19,6 @@ recipes:
 - sprout-git::projects
 - sprout-git::git_duet
 
-- sprout-postgresql
 - sprout-jetbrains-editors::intellij
 
 node_attributes:
@@ -33,25 +32,11 @@ node_attributes:
       domain: pivotal.io
       authors:
         - initials: ah
-          name: Abhijit Hiremagalur
-        - initials: al
-          name: Andrew Leung
-        - initials: dl
-          name: Dariusz Lorenc
-        - initials: dg
-          name: Dylan Griffith
-        - initials: jf
-          name: Joel Freedman
-        - initials: gb
-          name: Gabriel Bieules
-          email: gabriel.bieules@team.telstra.com
-        - initials: sb
-          name: Stuart Bargon
-          email: stuart.bargon@team.telstra.com
+          name: Abhi Hiremagalur
       projects:
         -
           name: sprout-wrap
-          url: https://github.com/pivotal/sprout-wrap-sydney.git
+          url: https://github.com/hiremaga/sprout-wrap-sydney.git
     terminal:
       default_profile: 'Pro'
     settings:
@@ -83,7 +68,7 @@ node_attributes:
     casks:
       - ccmenu
       - flycut
-      # - google-chrome # Failing on Travis: https://travis-ci.org/pivotal-sydney/sprout-wrap-sydney/builds/122670486
+      - google-chrome
       - google-hangouts
       - java
       - spectacle
