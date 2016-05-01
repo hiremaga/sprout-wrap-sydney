@@ -25,9 +25,15 @@ recipes:
 node_attributes:
   bash_it:
     enabled_plugins:
+      aliases:
+        - bundler
+        - general
+      completion:
+        - defaults
+        - git
+        - ssh
       plugins:
-          - ssh
-          - node
+        - ssh
   sprout:
     git:
       domain: pivotal.io
