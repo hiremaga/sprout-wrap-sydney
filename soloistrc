@@ -71,6 +71,7 @@ node_attributes:
       - springboot
       - ssh-copy-id
       - the_platinum_searcher
+      - tig
       - tmux
       - tree
       - watch
@@ -82,6 +83,8 @@ node_attributes:
       - google-drive
       - google-hangouts
       - java
+      - skype
       - spectacle
+      - spotify
       - textmate
       - tunnelblick
