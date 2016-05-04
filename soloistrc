@@ -54,7 +54,7 @@ node_attributes:
       projects:
         -
           name: sprout-wrap
-          url: https://github.com/hiremaga/sprout-wrap-sydney.git
+          url: git@github.com:hiremaga/sprout-wrap-sydney.git
     terminal:
       default_profile: 'Pro'
     settings:
